@@ -2,11 +2,11 @@
 
 ## Invariant Mass Spectrum Analysis: Reproducing Ting's Nobel Discovery
 This repository contains Python scripts designed to dynamically analyze dimuon invariant mass distributions using experimental datasets. The core goal of this codebase is to reproduce the historic data analysis workflows that led to the discovery of the $J$ particle ($J/\psi$ meson), as documented in Samuel C.C. Ting’s 1976 Nobel Lecture paper: "The discovery of the J particle: A personal recollection" (p. 1).
-------------------------------
+
 ## Physics Context & Project Scope
 In 1974, Samuel Ting's team at Brookhaven National Laboratory (BNL) discovered a massive, narrow resonance in the electron-positron ($e^+e^-$) spectrum at 3.1 GeV using a high-precision double-arm spectrometer (pp. 3, 9-10). Concurrently, Burton Richter's team at SLAC discovered the same resonance in $e^+e^-$ collisions (naming it $\psi$). This discovery confirmed the existence of the charm quark ($c$), revolutionizing particle physics (pp. 1, 13).
 This project reads high-energy collision records dynamically, computes the invariant mass of particle pairs, automatically identifies resonance states without hardcoded assumptions, and renders a continuous distribution line matching modern spectroscopic techniques (p. 2).
-------------------------------
+
 ## Features
 
 * Vectorized Kinematic Pipeline: Eliminates nested Python loops by implementing NumPy-based multi-column vector operations to compute invariant mass profiles instantly across tens of thousands of data events.
