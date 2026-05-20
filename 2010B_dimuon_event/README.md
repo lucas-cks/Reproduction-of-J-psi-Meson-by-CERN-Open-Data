@@ -78,6 +78,8 @@ The output diagram will automatically log-scale across a domain stretching from 
 
 ## Dataset Reference
 
-* **Source:** CERN Open Data Portal
-* **Collection Run:** CMS Collaboration (Run2010B Primary Dataset)
-* **Telemetry Characteristics:** Multi-column kinematic parameters tracking individual muon energies ($E$), primary transverse orientation components ($p_x, p_y, p_z$), and charge identities reconstructed from tracker tracking hits and muon chamber triggers.
+* **Source:** CERN Open Data Portal (Record 700)
+* **Title:** Dimuon event information derived from the Run2010B public Mu dataset
+* **Collector:** Thomas McCauley (Data recorded in 2010 and published in 2014)
+* **Characteristics:** 100,000 recorded opposite-sign dimuon events filtered between $2\text{ GeV} < M_{\mu\mu} < 100\text{ GeV}$.
+* **URL:** [https://opendata.cern.ch/record/700](https://opendata.cern.ch/record/700)
