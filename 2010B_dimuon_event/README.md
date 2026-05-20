@@ -39,9 +39,9 @@ This codebase scans a highly broad mass scale dynamically, normalizing Kernel De
 ## Repository Structure
 
 ```text
-├── MuRun2010B.csv           # Raw dimuon data file (User provided)
-├── jpsi_z_reconstruction.py # Production Python script executing physics pipe
-└── dimuon_invariant_mass_spectrum.png  # High-resolution spectroscopic readout
+├── MuRun2010B.csv                        # Raw dimuon data file
+├── jpsi_z_reconstruction.py              # Production Python script executing physics pipe
+└── dimuon_invariant_mass_spectrum.png    # Spectroscopic readout
 
 ```
 
