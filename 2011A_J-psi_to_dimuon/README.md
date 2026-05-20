@@ -20,8 +20,6 @@ This project reads high-energy collision records dynamically, computes the invar
 ## Plot Result
 ![J/psi Mass Spectrum](jpsi_mass_spectrum.png)
 
-------------------------------
-## Code Setup
 ## Prerequisites
 Install the required scientific computing and visualization dependencies:
 ```bash
@@ -33,12 +31,8 @@ Plot Result: jpsi_mass_spectrum.png
 
 ## Dataset Reference
 
-Source: CERN Open Data Portal (Record 5203)
-
-Title: J/psi to two muons from 2011
-
-Collector: Thomas McCauley (Data recorded in 2011 and published in 2019)
-
-Characteristics: 20,000 recorded opposite-sign dimuon events filtered between $\(2\text{ GeV} < M_{\mu\mu} < 5\text{ GeV}\)$ .
-
+* **Source:** CERN Open Data Portal (Record 5203)
+* **Collection Run:** CMS Collaboration (Run2011A Primary Dataset)
+* **Collector** Thomas McCauley (Data recorded in 2011 and published in 2019)
+* **Characteristics** 20,000 recorded opposite-sign dimuon events filtered between $\(2\text{ GeV} < M_{\mu\mu} < 5\text{ GeV}\)$ .
 https://opendata.cern.ch/record/5203
